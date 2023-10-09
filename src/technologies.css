@@ -1,0 +1,27 @@
+.logoImg{
+    float: right;
+    margin-top: 200px;
+}
+.title{
+    border-radius: 15px;
+    border: 1px;
+    text-shadow: 2px 2px 1px black;
+    align-items: center;
+    margin-left: 200px;
+}
+.sub-title{
+    border-radius: 15px;
+    border: 1px;
+    text-shadow: 2px 2px 1px black;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+progress{
+    color: darkcyan;
+    size: 10px;
+    margin-left: 50px;
+}
+.percentage{
+    margin-left: 60px;
+    margin-right: -45px;
+}
