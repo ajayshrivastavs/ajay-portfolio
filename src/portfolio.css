@@ -1,0 +1,28 @@
+.title{
+    font-size: 60px;
+    color: darkcyan;
+    font-family: arial;
+    text-shadow: 1px 1px 2px white;
+
+}
+.banner-img{
+    float: right;
+    margin-right: 100px;
+    margin-top: 0px;
+    font-style: bold;
+    
+}
+.banner-text{
+    margin-left: 200px;
+    margin-top: 150px;
+    
+}
+.my-name{
+    font-size: 25px;
+    font-family: franklin;
+    color: aqua;
+    text-shadow: 1px 1px 2px white;
+}
+.my-buttons{
+    margin-top: 80px;
+}
