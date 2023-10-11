@@ -15,6 +15,10 @@
   margin: 0;
   box-sizing: border-box;
 }
+.resume{
+  color: white;
+}
+
 
 a {
   text-decoration: none;
