@@ -18,7 +18,11 @@
 .resume{
   color: white;
 }
-
+#project{
+  text-decoration: none;
+  color: white;
+  
+}
 
 a {
   text-decoration: none;
