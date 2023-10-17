@@ -1,0 +1,142 @@
+@media screen and (orientation:landscape) {
+    header{
+        display: grid;
+        grid-template-columns: 10fr 1fr 1fr;
+    }
+    section{
+        flex-wrap: wrap;
+    }
+    .banner-img{
+        float: right;
+        margin-top: 150px;
+        margin-right: 90px;
+        border: 1px solid white;
+        border-radius: 80px;
+    }
+    footer{
+        background-color: black;
+        color: white;
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: grid;
+        grid-template-columns: 4fr 4fr 4fr;
+        margin-top: 10px;
+
+    }
+    .footer-brand-name{
+        margin-top: 20px;
+    }
+    .title{
+        font-weight: bold;
+        margin-bottom: 15px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .title~div{
+        margin-bottom: 10px;
+    }
+    .he2{
+        font-weight: bold;
+        color: white;
+        padding: 2px;
+        border-radius: 5px;
+        font-family: 'Times New Roman';
+        margin-right: 10px;
+        font-size: 20px;
+
+    }
+    #intro{
+        font-weight: bold;
+    }
+    .career{
+        border: 1px solid white;
+        width: 400px;
+        padding: 5px;
+        border-radius: 60px;
+        background-color: rgb(0, 242, 255);
+        color: black;
+        text-shadow: 2px 1px 1px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+
+    }
+    .work{
+        border: 1px solid white;
+        width: 600px;
+        padding: 5px;
+        border-radius: 60px;
+        background-color: rgb(0, 242, 255);
+        color: black;
+        text-shadow: 2px 1px 1px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    .brand-logo{
+        color: white;
+        margin-left: -75px;
+        text-shadow: 2px 2px 8px  black;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .about-me{
+        color: white;
+        text-shadow: 2px 2px 8px  rgb(34, 0, 255);
+        padding: 5px;
+        margin-top: 2px;
+    }
+    #social-links{
+        margin-top: 50px;
+       
+    }
+   
+}
+
+
+
+
+
+@media screen and (orientation:portrait){
+    body{
+        display: grid;
+        grid-template-columns: 12fr;
+    }
+    .social-links{
+        flex-wrap: wrap;
+        display: none;
+       
+    
+    }
+    .about-me{
+        flex-wrap: wrap;
+        display: hide;
+        font-size: 120px;
+
+    }
+    header{
+        background-color: gold;
+    }
+    nav{
+        background-color: aquamarine;;
+        padding: 5px;
+        
+    }
+    
+    .banner-img{
+        height: 200px;
+        width: 200px;
+        align-items: center;
+        margin-left: 85px;
+        border: 1px solid black;
+        border-radius: 50px;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+}
